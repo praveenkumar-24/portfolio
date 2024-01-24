@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+#navbarlink{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 20px;
+    /* box-shadow: 0px 5px 5px rgba(252, 243, 243, 0.5); */
+    background-color: #B2C8BA;
+}
+#navbarlink .navbar-brand{
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+}
+.nav-link{
+    color: black !important;
+    border-bottom: 1px solid white;
+}
+.nav-link:hover{
+    border-bottom: 1px solid black;
+}
+/* navbar end */
+/* home */
+#home{
+    width: 100%;
+   min-height: 100vh;
+    /* background-color: #B2C8BA; */
+    background-color: #265073;
+}
+#home #one {
+     margin-top: 100px; 
+}
+#home #one h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 8px;
+    color: #EC8F5E;
+}
+#home #one h2{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 8px;
+    color: #fff;
+}
+#home h2 span{
+    color: #9FBB73;
+}
+#home #one p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: #fff;
+}
+#home #one i{
+    font-size: 30px;
+    padding-left: 20px;
+    padding: 8px;
+    color: #fff;
+}
+#home button{
+    background-color: rgb(31, 161, 31);
+    border-radius: 50px;
+    font-size: 23px;
+    color: #265073;
+    font-weight: bold;
+    padding: 0px 15px;
+    text-align: center;
+    
+}
+#home #one button i{
+    color: #fff;
+}
+#home button a{
+text-decoration: none;
+color: white;
+}
+#home #two{
+    padding: 10px 20px 10px 0px;
+}
+#home #two img{
+    margin-top: 50px;
+    height: 550px;
+    width: 70%;
+    margin-left: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, .7);
+    padding: 10px;
+}
+/* nome end */
+/* about start */
+#about{
+    width: 100%;
+   min-height: 100vh;
+    background-color:#B2C8BA;
+    color: black;
+}
+
+#about #image{
+    padding-top: 50px;
+}
+#about #image img{
+    height: 600px;
+     width: 90%; 
+    border-radius: 30px;
+    padding: 10px; 
+    margin-top: 25px;
+    /* box-shadow: 0px 15px 20px rgba(255, 252, 252, 0.9); */
+}
+#about #me{
+  /* padding-top: 150px;  */
+  margin-top: 100px;
+  padding: 20px;
+}
+#about #me h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 8px;
+}
+#about #me h2{
+    font-size: 35px;
+    padding: 8px;
+}
+#about #me p{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 0px 8px;
+    text-align: justify;
+}
+/* about end */
+
+/* skill start */
+#skill{
+ width: 100vw;
+ min-height: 100vh;
+ background-color: #265073;
+ 
+}
+#skill h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: #fff;
+}
+#skill h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#skill .card{
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    justify-content: center; 
+    margin-right: 25px;
+     margin-left: 25px; 
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color:#fff ;
+    /* box-shadow:0px 15px 20px rgba(255, 252, 252, 0.9) ; */
+    cursor: pointer;
+    
+}
+
+
+#skill .card i{
+    font-size: 100px; 
+    color:#265073 ;
+}
+#skill .card:hover{
+    box-shadow:0px 10px 10px  rgba(255, 252, 252, 0.9) ;
+    border: 2px solid black;
+}
+/* skill end */
+
+/* edu start */
+#edu{
+    width: 100%;
+   min-height: 100vh;
+    background-color:#B2C8BA;
+    
+}
+#edu h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+#edu ul li{
+    margin-top: 70px;
+    padding: 25px;
+}
+#edu ul li button{
+    font-size: 20px;
+    background-color: #265073;
+    color: #fff !important;
+}
+#pills-tabContent h2{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#pills-tabContent li{
+    font-size: 20px;
+    padding: 8px;
+}
+/* edu end */
+/* certificate start */
+#certificate{
+    width: 100%;
+    height: 580px;
+     /* background-color:#B2C8BA ;  */
+}
+#certificate img{
+    height: 530px;
+    width: 0px;
+     /* margin-top: 70px;  */
+}
+#certificate h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+/* certificate end */
+
+footer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+     background-color: #B2C8BA;
+     padding: 8px;
+    color: black;
+  }
